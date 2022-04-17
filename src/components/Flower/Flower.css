@@ -1,0 +1,20 @@
+.flow{
+
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+.flow img {
+    height: 200px;
+    width: 200px;
+}
+.flow button{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: chocolate;
+}
+.flow button:hover{
+    background-color: orange;
+}
