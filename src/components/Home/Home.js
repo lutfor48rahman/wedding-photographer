@@ -1,8 +1,5 @@
-import { Button } from 'bootstrap';
-import { Carousel } from 'bootstrap';
 import React from 'react';
 import banner1 from '../images/banner1.jpg';
-import banner3 from '../images/banner3.jpg';
 
 const Home = () => {
     return (
@@ -15,7 +12,9 @@ const Home = () => {
                     
                 </div>
             </div>
-            <h1>This is home page</h1>
+            <div className='m-3 p-3'>
+            <h1>Photographer Services</h1>
+            </div>
 
         </div>
     );
