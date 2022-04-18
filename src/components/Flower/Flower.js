@@ -9,7 +9,7 @@ const Flower = (props) => {
         <div className='flow'>
             <img src={userImageURL} alt="" />
             <h3>{name}</h3>
-            <p>price : {price}</p>
+            <p>price : ${price}</p>
             <p><small>{desc}</small></p>
             <button onClick={()=>navigate('/checkout')}>Selecte</button>
         </div>

@@ -5,6 +5,8 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import './Login.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -47,6 +49,7 @@ const Login = () => {
     }
     const handleReset = async () => {
         await sendPasswordResetEmail(email);
+        toast ('email send for reset password!!');
     }
 
     return (
@@ -76,6 +79,7 @@ const Login = () => {
 
             </div>
             <SocialLogin></SocialLogin>
+            <ToastContainer />
         </div>
 
 

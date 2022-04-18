@@ -1,23 +1,23 @@
  [
     {
         "id": 195893,
-        "name": "white flower",
-        "price":20,
-        "userImageURL": "https://cdn.pixabay.com/user/2013/11/05/02-10-23-764_250x250.jpg",
-        "desc":"In their range of colour, size, form, and anatomical arrangement, flowers present a seemingly endless variety of combinations"
+        "name": "Fun Family and Kids Photography",
+        "price":220,
+        "userImageURL": "https://images.squarespace-cdn.com/content/v1/5373b147e4b0e5824b359a50/1606985710680-0DQIG59595LTMBQWBHAJ/endofsessionfamilypose.jpg?format=500w",
+        "desc":"My family sessions are happy. I love when kids have fun at photo shoots with me. And they love it, too!"
     },
     {
         "id": 195894,
-        "name": "yellow flower",
-        "price":30,
-        "userImageURL": "https://images.unsplash.com/photo-1589517575452-18a6d4c3f2e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8eWVsbG93JTIwZmxvd2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-        "desc":"In their range of colour, size, form, and anatomical arrangement, flowers present a seemingly endless variety of combinations"
+        "name": "Stylish Fashion Photography",
+        "price":230,
+        "userImageURL": "https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZmFzaGlvbnxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "desc":"Modernism was a philosophical movement of the late 19th and early 20th centuries that was based on an underlying belief in the progress of society."
     },
     {
         "id": 195895,
-        "name": "Rose",
-        "price":40,
-        "userImageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAsxEKrcYpWNHrqTGL09h9-Cw_XZwhBE9g2g&usqp=CAU",
-        "desc":"In their range of colour, size, form, and anatomical arrangement, flowers present a seemingly endless variety of combinations"
+        "name": "Delightful Food Photography",
+        "price":340,
+        "userImageURL": "https://media.istockphoto.com/photos/stack-of-pancakes-with-maple-syrup-and-fresh-blueberries-picture-id1161996776?b=1&k=20&m=1161996776&s=170667a&w=0&h=GPlURDuxPhGn28fmyvrqVa7hTa0E6kzz-ZEzimub28s=",
+        "desc":"Checking your Instagram or Facebook feed, you’re almost certain to see a constant barrage of food pictures scrolling by like images in a slot machine"
     }
 ]
