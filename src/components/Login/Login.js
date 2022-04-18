@@ -12,6 +12,7 @@ const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [success, setSuccess] = useState('');
+    const [mailError, setError] = useState();
 
 
 
@@ -45,11 +46,12 @@ const Login = () => {
         event.preventDefault();
         signInWithEmailAndPassword(email, password);
         setSuccess('Successfully logged in!!!');
+        setError('username or password invailid!!!');
 
     }
     const handleReset = async () => {
         await sendPasswordResetEmail(email);
-        toast ('email send for reset password!!');
+        toast('email send for reset password!!');
     }
 
     return (
@@ -65,7 +67,12 @@ const Login = () => {
                             <input onBlur={handlePasswordBlur} type="password" name='password' placeholder='your password' required />
                         </div>
                         <p>
-                            {success}
+                            {
+                                user ?
+                                     success 
+                                    :
+                                     mailError 
+                            }
                         </p>
                         <input className='form-submit' type="submit" value="login" />
                     </form>

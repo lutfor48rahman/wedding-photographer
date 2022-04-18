@@ -5,3 +5,12 @@
     grid-gap: 10px;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .header{
+        overflow: hidden;
+    }
+    .flower{
+        grid-template-columns: 1fr;
+    }
+}
