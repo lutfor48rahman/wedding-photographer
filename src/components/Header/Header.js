@@ -23,6 +23,7 @@ const Header = () => {
                 <Link to='/home'>Home</Link>
                 <Link to='/blog'>Blog</Link>
                 <Link to='/about'>About</Link>
+                <Link to ='/checkout'>Check Out</Link>
                 {
                     user ?
                     <button className='signout' onClick={handleSignOut}>Signout</button>
