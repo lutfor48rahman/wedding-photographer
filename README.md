@@ -1,6 +1,6 @@
 # Create Wedding Photographer React App
 
-## [Wedding-Photographer](https://stellular-dieffenbachia-45487a.netlify.app/login)
+## [Wedding-Photographer](https://stellular-dieffenbachia-45487a.netlify.app)
 
 In the project directory, you can run:
 
